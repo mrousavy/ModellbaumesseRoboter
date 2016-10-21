@@ -1,4 +1,4 @@
 ﻿  main.cpp
-c:\users\b4dpi\dropbox\robotik\pccontroller\pccontroller\main.cpp(105): warning C4715: 'SendData::connectSend': not all control paths return a value
-  PCController.vcxproj -> C:\Users\b4dpi\Dropbox\Robotik\PCController\Debug\PCController.exe
-  PCController.vcxproj -> C:\Users\b4dpi\Dropbox\Robotik\PCController\Debug\PCController.pdb (Partial PDB)
+c:\users\b4dpi\documents\visual studio 2015\projects\modellbaumesseroboter\pccontroller\pccontroller\main.cpp(105): warning C4715: 'SendData::connectSend': not all control paths return a value
+  PCController.vcxproj -> C:\Users\b4dpi\Documents\Visual Studio 2015\Projects\ModellbaumesseRoboter\PCController\Debug\PCController.exe
+  PCController.vcxproj -> C:\Users\b4dpi\Documents\Visual Studio 2015\Projects\ModellbaumesseRoboter\PCController\Debug\PCController.pdb (Partial PDB)

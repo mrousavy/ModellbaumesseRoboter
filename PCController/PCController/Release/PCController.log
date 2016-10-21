@@ -1,0 +1,7 @@
+﻿  main.cpp
+  Generating code
+c:\users\b4dpi\documents\visual studio 2015\projects\modellbaumesseroboter\pccontroller\pccontroller\main.cpp(105): warning C4715: 'SendData::connectSend': not all control paths return a value
+  All 21 functions were compiled because no usable IPDB/IOBJ from previous compilation was found.
+  Finished generating code
+  PCController.vcxproj -> C:\Users\b4dpi\Documents\Visual Studio 2015\Projects\ModellbaumesseRoboter\PCController\Release\PCController.exe
+  PCController.vcxproj -> C:\Users\b4dpi\Documents\Visual Studio 2015\Projects\ModellbaumesseRoboter\PCController\Release\PCController.pdb (Full PDB)
