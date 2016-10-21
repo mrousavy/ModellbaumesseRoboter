@@ -142,6 +142,7 @@ public:
 int main()
 {
 	SendData sd;
+	cout << "Starting PC Controller by: Rousavy, Maniak, Barosch (3DHIT)" << endl;
 	cout << "Connecting to 192.168.43.144.." << endl;
 	char c[15] = "192.168.43.144";
 	sd.connectSend(c);
