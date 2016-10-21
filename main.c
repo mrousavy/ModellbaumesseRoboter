@@ -1,4 +1,4 @@
-void afterSpeedChange(int lastCase, int speed) {
+void move(int lastCase, int speed) {
 	int _switch;
 	if (lastCase != -1) {
 		_switch = lastCase;
@@ -40,7 +40,7 @@ void afterSpeedChange(int lastCase, int speed) {
 				printf("Maximum Speed reached");
 			} else {
 				speed += 10;
-				afterSpeedChange(lastCase, speed);
+				move(lastCase, speed);
 			}
 			break;
 		case 6:
@@ -48,7 +48,7 @@ void afterSpeedChange(int lastCase, int speed) {
 				printf("Minimum Speed reached");
 			} else {
 				speed -= 10;
-				afterSpeedChange(lastCase, speed);
+				move(lastCase, speed);
 			}
 			break;
 	}
