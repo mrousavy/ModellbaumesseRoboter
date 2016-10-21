@@ -1,13 +1,13 @@
 void afterSpeedChange(int lastCase, int speed) {
-	int switch;
+	int _switch;
 	if (lastCase != -1) {
-		switch = lastCase;
+		_switch = lastCase;
 	} else {
-		switch = remote_read();
+		_switch = remote_read();
 	}
-	switch (switch) {
+	switch (_switch) {
 		case -1:
-			return 0;
+			return;
 			break;
 		case 0:
 			motor(0, 0);
@@ -56,7 +56,7 @@ void afterSpeedChange(int lastCase, int speed) {
 
 int main() {
 	remote_setup();
-	printf("Server setted up!");
+	printf("Server set up!");
 	int speed = 20;
 	int lastCase;
 	enable_servo(0);
