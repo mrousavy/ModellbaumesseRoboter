@@ -1,0 +1,4 @@
+﻿  main.cpp
+c:\users\b4dpi\dropbox\robotik\pccontroller\pccontroller\main.cpp(105): warning C4715: 'SendData::connectSend': not all control paths return a value
+  PCController.vcxproj -> C:\Users\b4dpi\Dropbox\Robotik\PCController\Debug\PCController.exe
+  PCController.vcxproj -> C:\Users\b4dpi\Dropbox\Robotik\PCController\Debug\PCController.pdb (Partial PDB)
